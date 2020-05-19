@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">D-Scanner Cam</string>
+
+    <string name="MAIN_ACTIVITY_LBL_TITLE">QR Code / Barcode Scanner</string>
+    <string name="MAIN_ACTIVITY_LBL_POWER_BY">POWER BY Desmond Wong</string>
+    <string name="MAIN_ACTIVITY_BTN_MESSAGE">QR Code not detected</string>
+    <string name="MAIN_ACTIVITY_TXT_GEO_MESSAGE">%s / %s</string>
+</resources>
