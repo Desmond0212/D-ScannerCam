@@ -155,6 +155,9 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
             QRUrlModel qrUrlModel = new QRUrlModel(result);
             btnMessage.setText(qrUrlModel.getUrl());
             urlLink = qrUrlModel.getUrl();
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(urlLink));
+            startActivity(i);
         }
         else if (result.startsWith("geo:"))
         {
